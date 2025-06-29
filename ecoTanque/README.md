@@ -1,69 +1,70 @@
-# React + TypeScript + Vite
+# ⛽ ecoTanque
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ecoTanque** é uma aplicação simples que ajuda usuários a decidir entre abastecer com **etanol ou gasolina**, com base em um cálculo automático de custo-benefício.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- Inserir o valor do litro da gasolina e do etanol.
+- Calcular automaticamente qual combustível é mais vantajoso.
+- Exibir o resultado de forma clara e rápida.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🖼️ Demonstração
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+![ecoTanque Screenshot](./src/assets/image.png) 
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tecnologias Utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📦 Como instalar e rodar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/kaah-kz/ecoTanque.git
+
+Entre na pasta do projeto:
+cd ecoTanque
+
+Instale as dependências:
+npm install
+
+Rode o projeto:
+npm run dev
+
+Acesse no navegador:
+http://localhost:5173
+
+ecoTanque/
+├── node_modules
+├── public/              # arquivos estáticos
+├── src/
+│   ├── assets/          # imagem e logo
+│   ├── App.css          # estilos da aplicação
+│   ├── App.tsx          # componente principal
+│   ├── index.css        # css global do projeto
+│   └── main.tsx         # ponto de entrada
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.ts
+
+
+🧮 Como o cálculo funciona?
+A lógica usada no ecoTanque segue a fórmula comum:
+
+Se (preço do etanol / preço da gasolina) < 0.7 → etanol é mais vantajoso
+Caso contrário → gasolina é mais vantajosa 
+
+Contato: https://www.linkedin.com/in/karol%C3%A1vila/

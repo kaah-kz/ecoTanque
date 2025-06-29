@@ -60,7 +60,7 @@ function App() {
           alt='Logo do ecoTanque - Gasolina ou Álcool?'
         />
 
-        <h1>Qual melhor opção?S</h1>
+        <h1>Qual melhor opção?</h1>
 
         <form className='form' onSubmit={calcular}>
           <label>Álcool (preço por litro):</label>
