@@ -14,7 +14,7 @@
 
 ## 🖼️ Demonstração
 
-![ecoTanque Screenshot](./src/assets/image.png) 
+![ecoTanque Screenshot](./ecoTanque/src/assets/image.png) 
 
 ---
 
