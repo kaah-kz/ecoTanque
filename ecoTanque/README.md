@@ -1,12 +1,12 @@
 # ⛽ ecoTanque
 
-**ecoTanque** é uma aplicação simples que ajuda usuários a decidir entre abastecer com **etanol ou gasolina**, com base em um cálculo automático de custo-benefício.
+**ecoTanque** é uma aplicação simples que ajuda usuários a decidir entre abastecer com **álcool ou gasolina**, com base em um cálculo automático de custo-benefício.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Inserir o valor do litro da gasolina e do etanol.
+- Inserir o valor do litro do álcool e da gasolina.
 - Calcular automaticamente qual combustível é mais vantajoso.
 - Exibir o resultado de forma clara e rápida.
 
@@ -64,7 +64,7 @@ ecoTanque/
 🧮 Como o cálculo funciona?
 A lógica usada no ecoTanque segue a fórmula comum:
 
-Se (preço do etanol / preço da gasolina) < 0.7 → etanol é mais vantajoso
+Se (preço do álcool / preço da gasolina) < 0.7 → álcool é mais vantajoso
 Caso contrário → gasolina é mais vantajosa 
 
 Contato: https://www.linkedin.com/in/karol%C3%A1vila/
