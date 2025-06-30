@@ -64,7 +64,7 @@ ecoTanque/
 🧮 Como o cálculo funciona?
 A lógica usada no ecoTanque segue a fórmula comum:
 
-Se (preço do etanol / preço da gasolina) < 0.7 → etanol é mais vantajoso
+Se (preço do álcool / preço da gasolina) < 0.7 → álcool é mais vantajoso
 Caso contrário → gasolina é mais vantajosa 
 
 Contato: karolavila850@gmail.com
