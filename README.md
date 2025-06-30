@@ -1,6 +1,6 @@
 # ⛽ ecoTanque
 
-**ecoTanque** é uma aplicação simples que ajuda usuários a decidir entre abastecer com *Álcool ou gasolina**, com base em um cálculo automático de custo-benefício.
+**ecoTanque** é uma aplicação simples que ajuda usuários a decidir entre abastecer com *Álcool ou gasolina*, com base em um cálculo automático de custo-benefício.
 
 ---
 
